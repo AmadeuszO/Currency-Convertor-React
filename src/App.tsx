@@ -1,9 +1,11 @@
 
 import './App.css'
+import {CurrencyConvertor} from "./components/CurrencyConvertor";
 
 export const App = () => {
-  return<>
-    </>
+  <div className="App">
+    <CurrencyConvertor/>
+  </div>
 }
 
 
